@@ -1,9 +1,20 @@
+import { Typography } from '@material-ui/core';
+import React from 'react'
 
-function App() {
+//components
+import Content from '../content'
+import Form from '../form'
+
+const App = () => {
+
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Typography variant='h2'>
+        Web Home test assignment
+      </Typography>
+      <Form />
+      <Content />
+    </>
   );
 }
 
